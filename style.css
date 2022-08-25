@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&family=Trispace:wght@100;200;300;400;500;600;700;800&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.half-width{
+    width: 45%;
+    margin-left: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.header-contianer{
+    display: flex;
+}
+.header-text{
+    font-size: 50px;
+    color: gray;
+    margin-top: 30%;
+}
+.orange-color{
+    color: orange;
+}
+.header-pera{
+    font-size: 22px;
+    font-weight: 600;
+    color: gray;
+}
+.btn{
+    text-decoration: none;
+    padding: 15px 30px;
+    background-image: linear-gradient(to right, rgb(255, 166, 0) ,rgb(255, 79, 48));
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;
+    margin-top: 5px;
+    display: inline-block;
+    box-shadow: 0 0 10px 2px tomato;
+}
+
+
+/* main section */
+
+.section_bg_img{
+    background-image: url(images/shapes/7.png);
+}
+.dis_flex{
+    display: flex;
+
+}
+.mt-5{
+    margin-top: 5%;
+}
+.person_img{
+    vertical-align: middle;
+    width: 50% !important;
+    margin-left: 20%;
+}
+.about_me{
+    font-size: 40px
+    ;
+}
+.about_pera{
+    width: 60%;
+}
+
+
+
+/* footer */
+footer{
+    background-color: #0b0d17;
+    color: white;
+    text-align: center;
+    padding: 20px 0 50px 0;
+}
+.eat_color{
+    color: orange;
+}
+.fresh_color{
+    color: gray;
+}
+.pera_color{
+    color: lightgray;
+}
